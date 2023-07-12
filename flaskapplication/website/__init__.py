@@ -4,7 +4,6 @@ from os import path
 
 db = SQLAlchemy()
 DB_NAME = "database.db"
-
 def create_app():
     #Creating new App
     app = Flask(__name__)
